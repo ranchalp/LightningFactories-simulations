@@ -1,0 +1,11 @@
+#
+set term png
+set output "plot-1.png"
+load "plot-1.dem"
+set output "plot-2.png"
+load "plot-2.dem"
+set output "plot-3.png"
+load "plot-3.dem"
+set output "plot-4.png"
+load "plot-4.dem"
+load "plot-model.dem"

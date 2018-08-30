@@ -1,0 +1,9 @@
+* Plot-1: Cost as a function on the number of users
+# mal: 1e-08 , off: 1e-07 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+[[./plot-1-final.png]]
+* Plot-2: Cost as a function on l_f
+# users: 1000 mal: 1e-08 , off: 1e-07 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+[[./plot-2-final.png]]
+* Plot-2: Cost as a function on p_mal+p_off
+# users: 1000 mal: 1e-08 , off: 1e-07 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+[[./plot-2-final.png]]

@@ -1,0 +1,22 @@
+# users: 1000 , mal: 1e-08 , off: 1e-07 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+0.000109994955214 4291.969 0.6256001976
+# users: 1000 , mal: 2e-08 , off: 2e-07 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+0.000219979821526 3051.67 0.761536968
+# users: 1000 , mal: 3e-08 , off: 3e-07 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+0.000329954599933 2517.166 0.8201186064
+# users: 1000 , mal: 4e-08 , off: 4e-07 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+0.000439919291435 2101.044 0.8657255776
+# users: 1000 , mal: 5e-08 , off: 5e-07 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+0.000549873897027 1673.681 0.9125645624
+# users: 1000 , mal: 6e-08 , off: 6e-07 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+0.000659818417708 1391.74 0.943465296
+# users: 1000 , mal: 7e-08 , off: 7e-07 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+0.000769752854476 1305.912 0.9528720448
+# users: 1000 , mal: 8e-08 , off: 8e-07 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+0.000879677208326 1115.417 0.9737502968
+# users: 1000 , mal: 9e-08 , off: 9e-07 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+0.000989591480258 1021.614 0.9840311056
+# users: 1000 , mal: 1e-07 , off: 1e-06 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+0.00109949567127 915.628 0.9956471712
+# users: 1000 , mal: 1.1e-07 , off: 1.1e-06 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+0.00120938978235 739.423 1.0149592392

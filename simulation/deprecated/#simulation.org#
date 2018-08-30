@@ -1,0 +1,63 @@
+This simulation compares the impact of DMC Factories (DMCF) vs. Lightning factories (LF). 
+
+Users can be:
+- malicious
+- honest
+
+Users variables:
+- time that they take before looking at the blockchain
+- 
+
+State machine: 
+- x users randomly set up a factory
+- honest users always behave as expected
+- malicious users can try to cheat publishing old states, or becoming unresponsive
+
+Factories: 
+- a set of users
+- a set of updates
+  + upper bounded by init-time/delta_t in DMCF
+  + not upper-bounded in LF
+- rate of not finishing update -> the average of their users (only malicious addup)
+- rate of not being able to update -> the average of their users (malicious and normal ones add up)
+  + We are only interested in when a user goes offline for the rest of the life of the channel
+    + Meaning, if once offline -> one can already close channel
+
+
+* 1st test :: all users same likelihood of being malicious mal, and unresponsive off
+//1 tick = 1 minute let's say
+ticks_to_update = 24*60;//one update a day for the channels, restructuring the channels
+ticks_updating = 2;//ticks to update *relative to ticks in-between updates*
+mal_factory = sum (mal);// (one being malicious in n)
+off_factory = sum (off);// (one being unresponsive in n)
+
+mal_off_upd = mal+off/(ticks_to_update/ticks_updating); // 
+total = mal+off;
+mal_off_upd/= total;//sum of all = 1
+mal/= total;
+off/= total; 
+interest_rate = 0.0001096 // 4% per year. This implies that r ≈ 4/365/100 ≈ 0.0001096 per day. ("How to Charge Lihgtning")
+
+
+for each factory:
+  for each state (let's set a predefined limit, say 1000):
+  ran = rand()
+  if(ran<off){//user unresponsive -> can't update
+     //unresponsive but not while updating
+     // lock-in of channels, but funds can move
+     // define lock-in of funds dependent on the 
+     // rates of payments of the channels, per ticks
+     // to define the time they are locked-in
+     // moment when they exhaust - lock-in after then
+  }
+  else if(off<=ran<off+mal){//malicious or accidentally unresponsive in the middle of update
+     // user malicious
+     // this means possibility of  stale factory attack
+     // complete lock-in of funds, calculate this
+     //unresponsive while updating, 
+     // same as user malicious in DMC, 
+     // but for this case it also affects Lightning
+  }
+** //we don't consider classic attacks of publishing wrong state (we consider delta_t to be sufficiently large)
+*** Maybe another comparison in base of this?
+

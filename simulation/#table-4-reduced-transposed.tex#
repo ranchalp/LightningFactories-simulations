@@ -1,0 +1,7 @@
+\begin{tabular}{l|rrrrr}
+Interest & $\phi$ & $5\phi$ & $9\phi$ & $10\phi$ & $12\phi$\\\hline
+% DMF & 0.4148408224 & 2.043510632 & 3.5031088512 & 4.040178224 & 4.1654842328\\
+LF 
+DMF& 3785$\phi$ & 3729$\phi$ & 3551$\phi$ & 3686$\phi$ & 3455$\phi$\\
+% Factor & 3785 & 3729 & 3551 & 3686 & 3455\\
+\end{tabular}

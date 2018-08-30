@@ -1,0 +1,16 @@
+# users: 1000 , p: 1e-07 n_updates: 10 n_factory: 1000 , interest_rate: 0.0001096
+10.0 8.996 0.0001100384
+# users: 1000 , p: 1e-07 n_updates: 100 n_factory: 1000 , interest_rate: 0.0001096
+100.0 98.133 0.0002046232
+# users: 1000 , p: 1e-07 n_updates: 1000 n_factory: 1000 , interest_rate: 0.0001096
+1000.0 951.259 0.0053420136
+# users: 1000 , p: 1e-07 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+10000.0 6461.324 0.3878388896
+# users: 1000 , p: 1e-07 n_updates: 100000 n_factory: 1000 , interest_rate: 0.0001096
+100000.0 9975.257 9.8667118328
+# users: 1000 , p: 1e-07 n_updates: 1000000 n_factory: 1000 , interest_rate: 0.0001096
+1000000.0 10301.604 108.470944202
+# users: 1000 , p: 1e-07 n_updates: 10000000 n_factory: 1000 , interest_rate: 0.0001096
+10000000.0 10377.959 1094.86257569
+# users: 1000 , p: 1e-07 n_updates: 100000000 n_factory: 1000 , interest_rate: 0.0001096
+100000000.0 9686.496 10958.93836

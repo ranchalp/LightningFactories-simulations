@@ -1,0 +1,55 @@
+	number of users:  10
+number of updates:  10
+[[-499000, 499, 500, 0.054854799999998004]]
+number of updates:  100
+[[-499000, 499, 500, 0.054854799999998004]]
+number of updates:  1000
+[[-499000, 499, 500, 0.054854799999998004]]
+number of updates:  10000
+[[-499000, 499, 500, 0.054854799999998004]]
+number of updates:  100000
+[[-499000, 499, 500, 0.054854799999998004]]
+number of users:  100
+number of updates:  10
+[[-5033, 496, 503, 0.055192183789159605]]
+number of updates:  100
+[[-4912, 498, 501, 0.05498484803788863]]
+number of updates:  1000
+[[-5018, 501, 498, 0.05460935409155093]]
+number of updates:  10000
+[[-4937, 501, 498, 0.05462741276739098]]
+number of updates:  100000
+[[-4925, 498, 501, 0.054943016438818465]]
+number of users:  1000
+number of updates:  10
+[[945, 486, 513, 0.0562845818181818]]
+number of updates:  100
+[[946, 496, 503, 0.05519114128440367]]
+number of updates:  1000
+[[951, 498, 501, 0.05500812929292927]]
+number of updates:  10000
+[[942, 494, 505, 0.05539109059829063]]
+number of updates:  100000
+[[954, 455, 544, 0.059628356521739104]]
+number of users:  10000
+number of updates:  10
+[[943, 496, 503, 0.05514514385964909]]
+number of updates:  100
+[[954, 523, 476, 0.052268478260869576]]
+number of updates:  1000
+[[947, 475, 524, 0.057530694339622615]]
+number of updates:  10000
+[[951, 502, 497, 0.054538302040816306]]
+number of updates:  100000
+[[949, 516, 483, 0.053044250980392144]]
+number of users:  100000
+number of updates:  10
+[[]]
+number of updates:  100
+[[]]
+number of updates:  1000
+[[]]
+number of updates:  10000
+[[]]
+number of updates:  100000
+[[]]

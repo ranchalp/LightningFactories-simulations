@@ -1,0 +1,53 @@
+# set xlabel 'F_MZ / A_MZ'
+
+# f(x) = (x-1/(1-(1-0.0000001)**1000)) # iters left
+# f(x) = (x-1/(1-(1-0.0000001)**1000))*0; #
+
+set term png
+# set output "ex-n.png"
+#set title "Remaining number of updates as a function on n" 
+E(x) = (1/(1-(1-0.0000001)**x))
+lf = 10000
+n=1000
+r = 0.0001096
+cnaux(x) = (lf-E(x))/lf#*r
+cn(x) = cnaux(x)<0? 0 : cnaux(x)
+
+# set xrange [100:10000]
+# set yrange [0:1]
+# set ylabel '(l_f-E(n)) / l_f'
+# set xlabel 'n'
+# plot cn(x) title "f(x)=(l_f-E(x))/l_f"
+
+set output "ex-p.png"
+#set title "Expected number of updates as a function on p"
+cpaux(x) = (1/(1-(1-x)**n))#*r
+cp(x) = cpaux(x)<0? 0 : cpaux(x)
+set xrange [0:0.009]
+# set yrange [0:1]
+unset logscale x
+set xlabel 'p'
+set ylabel 'E(j)'
+plot cp(x) title "f(x)=1/(1-(1-x)^n)"
+
+
+# set output "ex-l.png"
+set output "ex-n-l.png"
+#set title "Remaining percentage of updates as a function on l_f"
+claux(x) = (x-(1/(1-(1-0.0000001)**n)))/x#*r
+cl(x) = claux(x)<0? 0 : claux(x)
+set ylabel '(l_f-E(n)) / l_f'
+set xlabel 'n'
+set xrange [100:100000]
+# set yrange [0:1]
+# set logscale x
+set x2label 'l_f'
+set xtics nomirror
+set x2tics
+# plot cl(x) title "f(x)=(x-E(n))/x"
+plot cn(x) title "f(x)=(l_f-E(x))/l_f", cl(x) title "f(x)=(x-E(n))/x" axes x2y1
+
+
+
+
+

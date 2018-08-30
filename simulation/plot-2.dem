@@ -1,0 +1,17 @@
+#
+set style line 1 lc rgb '#0060ad' lt 1 lw 2 pt 7 ps 1   # --- blue
+set style line 2 lc rgb '#dd181f' lt 1 lw 2 pt 7 ps 1   # --- red
+set style line 3 lc rgb '#4C9900' lt 1 lw 2 pt 7 ps 1 # --- green
+set style line 4 lc rgb '#800080' lt 1 lw 2 pt 7 ps 1 # --- purple
+# set title "Cost as a function on l_f" 
+set xlabel "l_f"
+set ylabel "cost"
+set logscale x 10
+set logscale y
+# set term png
+# set output "plot-2.png"
+plot 'output-2-dmc.dat' using 1:3 with linespoints ls 1 title "DMF, n = 1000", \
+    'output-2-lit.dat' using 1:3 with linespoints ls 2 title "LF, n = 1000", \
+    'output-2-lit-2.dat' using 1:3 with linespoints ls 3 title "LF, n = 100", \
+    'output-2-dmc-2.dat' using 1:3 with linespoints ls 4 title "DMF, n = 100"
+#

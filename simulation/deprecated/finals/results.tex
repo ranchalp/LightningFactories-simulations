@@ -1,0 +1,48 @@
+% Created 2018-05-14 Mon 13:20
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\tolerance=1000
+\author{Alejandro Ranchal Pedrosa}
+\date{\today}
+\title{results}
+\hypersetup{
+  pdfkeywords={},
+  pdfsubject={},
+  pdfcreator={Emacs 24.5.1 (Org mode 8.2.10)}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Plot-1: Cost as a function on the number of users}
+\label{sec-1}
+mal: 1e-08 , off: 1e-07 n$_{\text{updates}}$: 10000 n$_{\text{factory}}$: 1000 , interest$_{\text{rate}}$: 0.0001096
+\includegraphics[width=.9\linewidth]{./plot-1-final.png}
+\section{Plot-2: Cost as a function on l$_{\text{f}}$ (number of updates)}
+\label{sec-2}
+users: 1000 mal: 1e-08 , off: 1e-07 n$_{\text{updates}}$: 10000 n$_{\text{factory}}$: 1000 , interest$_{\text{rate}}$: 0.0001096
+\includegraphics[width=.9\linewidth]{./plot-2-final.png}
+\section{Plot-3: Cost as a function on p$_{\text{mal}}$+p$_{\text{off}}$}
+\label{sec-3}
+users: 1000 , n$_{\text{updates}}$: 10000 n$_{\text{factory}}$: 1000 , interest$_{\text{rate}}$: 0.0001096
+\includegraphics[width=.9\linewidth]{./plot-3-final.png}
+\section{Plot-2: Cost as a function on interest$_{\text{rate}}$}
+\label{sec-4}
+users: 1000 , mal: 1e-08 , off: 1e-07 n$_{\text{updates}}$: 10000 n$_{\text{factory}}$: 1000
+\includegraphics[width=.9\linewidth]{./plot-4-final.png}
+% Emacs 24.5.1 (Org mode 8.2.10)
+\end{document}

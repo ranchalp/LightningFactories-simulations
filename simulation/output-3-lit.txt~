@@ -1,0 +1,22 @@
+# users: 1000 , mal: 0.001 , off: 0.005 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+1000.0 1.0 1.0 0.0001096
+# users: 1000 , mal: 0.002 , off: 0.01 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+1000.0 1.0 1.0 0.0001096
+# users: 1000 , mal: 0.003 , off: 0.015 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+1000.0 1.0 1.0 0.0001096
+# users: 1000 , mal: 0.004 , off: 0.02 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+1000.0 1.0 1.0 0.0001096
+# users: 1000 , mal: 0.005 , off: 0.025 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+1000.0 1.0 1.0 0.0001096
+# users: 1000 , mal: 0.006 , off: 0.03 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+1000.0 1.0 1.0 0.0001096
+# users: 1000 , mal: 0.007 , off: 0.035 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+1000.0 1.0 1.0 0.0001096
+# users: 1000 , mal: 0.008 , off: 0.04 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+1000.0 1.0 1.0 0.0001096
+# users: 1000 , mal: 0.009 , off: 0.045 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+1000.0 1.0 1.0 0.0001096
+# users: 1000 , mal: 0.01 , off: 0.05 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+1000.0 1.0 1.0 0.0001096
+# users: 1000 , mal: 0.011 , off: 0.055 n_updates: 10000 n_factory: 1000 , interest_rate: 0.0001096
+1000.0 1.0 1.0 0.0001096
